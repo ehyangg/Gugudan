@@ -7,7 +7,7 @@ public class MethodDemo1 {
 //			System.out.println(i);
 //			i++;
 //		}
-//	}  //numbering이라는 method를 define { } 이게 기호로써의 차이점
+//	}  //numbering이라는 method를 define { } 이게 기호로써의 차이점 
 //	//method를 define함으로써 유지보수가 유리하고, 코드 간소화 가능, 재활용 가능
 //	
 //	public static void main(String[] args) {
