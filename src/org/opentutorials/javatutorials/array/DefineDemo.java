@@ -38,5 +38,5 @@ public class DefineDemo {
 			System.out.println(e + "이 상담을 받았습니다.");
 		}
 
-	}
+	}			
 }

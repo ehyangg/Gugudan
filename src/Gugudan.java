@@ -61,20 +61,42 @@ public class Gugudan {
 //			System.out.println(6 * i);
 //		}
 		
-		//7단 조건문 + 반복문 2~9값의 구구단만 출력
-		System.out.println("원하는 구구단은? : ");
-		Scanner scanner = new Scanner(System.in);
-		int number = scanner.nextInt();
-		System.out.println("사용자가 입력한 값 : " + number);
+//		//7단 조건문 + 반복문 2~9값의 구구단만 출력
+//		System.out.println("원하는 구구단은? : ");
+//		Scanner scanner = new Scanner(System.in);
+//		int number = scanner.nextInt();
+//		System.out.println("사용자가 입력한 값 : " + number);
+//		
+//		if(number < 2) {
+//			System.out.println("값을 잘못 입력했습니다.");
+//		} else if(number > 9) {
+//			System.out.println("값을 잘못 입력했습니다.");			
+//		} else
+//		
+//		for(int i = 1; i < 10; i++) {
+//			System.out.println(number * i);
+//		}
 		
-		if(number < 2) {
-			System.out.println("값을 잘못 입력했습니다.");
-		} else if(number > 9) {
-			System.out.println("값을 잘못 입력했습니다.");			
-		} else
+		//배열
+//		System.out.println("원하는 구구단은 ? : ");
+//		Scanner sc = new Scanner(System.in);
+//		int number = sc.nextInt();
+//		System.out.println("사용자가 입력한 값 : " + number);
+//		int[] result = new int[9];
+//			for(int i=0; i<result.length; i++) {
+//				result[i] = number * (i+1);
+//				System.out.println(result[i]);
+//		}
 		
-		for(int i = 1; i < 10; i++) {
-			System.out.println(number * i);
-		}
+//			System.out.println("구구단을 외자 !!");
+//			int[] number = new int[9];
+//			int[] result = new int[9];
+//			for(int j=1; j<number.length; j++) {
+//				for(int i=0; i<result.length; i++) {
+//					result[i] = (j+1) * (i+1);
+//					System.out.println(result[i]);
+//				}
+//			}
+
 	}
 }
