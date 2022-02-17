@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+/* 
 public class Gugudan {
 	public static void main(String[] args) {
 //		//2단
@@ -88,6 +89,7 @@ public class Gugudan {
 //				System.out.println(result[i]);
 //		}
 		
+		//2중for문
 //			System.out.println("구구단을 외자 !!");
 //			int[] number = new int[9];
 //			int[] result = new int[9];
@@ -97,6 +99,22 @@ public class Gugudan {
 //					System.out.println(result[i]);
 //				}
 //			}
+*/
 
+//매소드활용 구구단
+public class Gugudan {
+	public static void gugudan(int number) {
+		int[] result = new int[9];
+		for(int i=0; i<result.length; i++) {
+			result[i] = number * (i+1);
+		}
+	}
+	public static void main(String[] args) {
+		System.out.println("원하는 구구단은? : ");
+		Scanner sc = new Scanner(System.in);
+		int number = sc.nextInt();
+		for(int i=1; i<10; i++) {
+			System.out.println(number * i);
+		}
 	}
 }
